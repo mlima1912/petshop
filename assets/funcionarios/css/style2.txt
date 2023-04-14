@@ -1,0 +1,193 @@
+/* Cor de Fundo */
+body {
+background :rgba(8, 124, 126, 0.26); 
+}
+/* Cor cabeçalho e Rodapé */
+nav {
+background: -moz-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: -webkit-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: linear-gradient(135deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%); 
+display:flex;
+}
+/* Alinhar menu lado a lado */
+nav ul { 
+display: flex;
+width: 80%;
+list-style: none;
+}
+/* Alinhar espaço e tipo da fonte e cor da Fonte do Menu */
+nav ul li a { 
+background: transparent;
+margin: 0 8px 0 8px;
+font-family:inherit;
+text-decoration: none;
+font-size: medium;
+text-decoration:none ;
+font-size: 24px;
+font-weight: bold;
+font-style: italic;
+color:rgb(253, 246, 247) ;
+}
+/* cor vermelho ao clicar no Menu*/
+nav ul li a:hover{
+color: #d50707;
+font-weight:bold;
+}	
+/* Cor do Titulo principal texto e Tamanho e borda do h1 BEM-VINDO AO AMIGO PET!*/
+h1 {
+text-align: center;
+Text-transform: uppercase;
+color: #e93f0b;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+Font-size: 60px;
+border-top: 5px solid black; border-bottom: 0px solid black; border-right: 0px solid black;border-left: 0px solid black;	 		   
+}
+/* Cor do subtítulo texto e Tamanho e Borda do h2 class="fundo_vermelho" */
+.fundo_vermelho{
+font-size: 30px;
+background: #e01010;
+border-radius: 50px 50px 50px 50px;
+text-indent: 35px;
+width: 26%;
+height: 10%;
+margin: 20px 20px;
+}
+.chevron{
+background: red;
+display: block;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+position: fixed;
+bottom: 10px;
+right: 10px;
+transition: all 0.6s;
+cursor: pointer
+}
+.member {
+width: 300px;
+height: 400px;
+margin-bottom: 30px;
+background-color: #5523b1;
+background: -moz-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: -webkit-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: linear-gradient(135deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%); 
+padding: 20px;
+box-sizing: border-box;
+}
+.member img {
+width: 100%;
+height: 200px;
+object-fit: contain;
+margin-bottom: 20px;
+}
+.member h3 {
+margin-top: 0;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+.member p {
+margin-bottom: 0;
+font-size: 18px;
+text-align: center;
+}
+/*Informações a respeitos dos membros da página*/
+.container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+}
+@media screen and (max-width:390px){
+}
+@media only screen and (min-width:769px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chevron:hover{
+	box-shadow: 3px 3px 3px #333;
+	background: rgb(184, 11, 20);
+}
+
+
+
+#nav a img {
+    border-radius: 80px;
+
+}
+
+
+
+
+
+
+h2{
+font-size : 35px;
+background:#d63e02;
+border-radius: 50px 50px 50px 50px;
+text-indent: 20px;
+width: 25%;
+height: 10%;
+margin: 20px 20px; 
+}
+
+#h6 {
+	text-align: center;
+	Text-transform: uppercase;
+	color: #0a0109;
+	background: #FFFFFF;
+	Font-size: 20px;
+	
+	}
+h5 {
+		text-align: center;
+		color: #020306;
+		Font-size:20px;
+		
+		}
+
+
+
+	
+	
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+ 
+
+	
+	
+
+
+
+
+
+
+
+
+
