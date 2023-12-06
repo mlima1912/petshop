@@ -1,21 +1,17 @@
-*{
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-    body{
+body {
     display: flex;
     align-items: center;
-    justify-content:left;
+    justify-content: left;
     flex-direction: column;
     align-items: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed ;
-    background-image:url(../imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-image: url(../imagens/fundo.jpg);
 }
-    
-form textarea{
+
+form textarea {
     padding: 1px;
     outline: none;
     border: 1px;
@@ -26,16 +22,18 @@ form textarea{
     border-radius: 15px;
     border-color: #020202;
 }
- section h2{
+
+section h2 {
     color: #0a0606;
     margin: 1rem;
     font-style: italic;
-	font-weight: bold;
-	font-size: 30px;
-	font-family: arial, sans-serif;
-    text-align: center; 
+    font-weight: bold;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    text-align: center;
 }
-   section form{
+
+section form {
     flex-direction: column;
     padding: 9px;
     border: 1px;
@@ -44,35 +42,35 @@ form textarea{
     border-radius: 10px;
     width: 363px;
 }
-    form label{
+
+form label {
     color: #141414;
     margin-bottom: 1px;
     font: italic bold 18px arial, sans-serif;
     border: 1px;
- }
-    form input{
+}
+
+form input {
     padding: 6px;
     outline: none;
-    border-style:solid;
-    border-color:#020202;
+    border-style: solid;
+    border-color: #020202;
     margin-bottom: 10px;
     font-size: 15px;
     transition: all 0.5s;
     border-style: solid;
     border-radius: 15px;
     width: 350px;
-    }
-    
-    form button{
-    transition: all 1s;
-    margin-bottom: 50px;
-    border: 2px;
 }
-Tosa{
+
+form button {
     transition: all 1s;
     margin-bottom: 50px;
     border: 2px;
 }
 
-
-
+Tosa {
+    transition: all 1s;
+    margin-bottom: 50px;
+    border: 2px;
+}

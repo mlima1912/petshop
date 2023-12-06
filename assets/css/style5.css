@@ -1,5 +1,6 @@
 /* Cor de Fundo */
 body {
+
   background: rgba(8, 124, 126, 0.26);
 }
 
@@ -12,13 +13,7 @@ nav {
 }
 
 ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
+  padding-inline-start: 0%;
 }
 
 /* Alinhar menu lado a lado */
@@ -67,23 +62,7 @@ h1 {
 }
 
 /* Cor do subtítulo texto e Tamanho e Borda do h2 class="fundo_vermelho" */
-.fundo_vermelho {
-  font-size: 30px;
-  background: #e01010;
-  border-radius: 50px 50px 50px 50px;
-  text-indent: 35px;
-  width: 26%;
-  height: 10%;
-  margin: 20px 20px;
-}
 
-.fundo_verde {
-  font-size: 25px;
-  background: #f4f8f4;
-  border-radius: 50px 50px 50px 50px;
-  text-indent: 10px;
-  margin: 0;
-}
 
 .container {
   display: flex;
@@ -118,97 +97,9 @@ h1 {
 /* tamanho e alinhamento do h3 */
 .member h3 {
   margin-top: 0;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
-}
-
-/* tamanho e fonte e alinhamento da linha de parágrafo*/
-.member p {
-  margin-bottom: 0;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* Estilo Pagina Sobre Nós */
-/* Cor do subtítulo texto e Tamanho e Borda do h2 class="fundo_vermelho" */
-.fundo_azul {
-  font-size: 25px;
-  background: #208ac3;
-  border-radius: 50px 50px 50px 50px;
-  text-indent: 20px;
-  width: 25%;
-  height: 10%;
-  margin: 20px 20px;
-}
-
-.container2 {
-  display: flex;
-  width: 95%;
-  overflow: hidden;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: baseline;
-  align-items: center;
-  margin-top: 35px;
-  position: relative;
-  margin: 0 auto;
-}
-
-/* Cor e tamanho e Altura do Quadrado */
-.member2 {
-  border-radius: 40px;
-  width: 200px;
-  height: 400px;
-  margin-bottom: 50px;
-  background-color: #5523b1;
-  background: -moz-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
-  background: -webkit-linear-gradient(-45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
-  background: linear-gradient(135deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
-  padding: 35px;
-  margin: 12px;
-}
-
-/* Tamanho da imagem e alinhamento */
-.Pag_02_img {
-  width: 90%;
-  height: 300px;
-  object-fit: contain;
-  margin-bottom: 15px;
-  position: absolute;
-}
-
-/* tamanho e alinhamento do h3 */
-.Pag_02_h3 {
-  margin-top: 1;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* tamanho e fonte e alinhamento da linha de parágrafo*/
-.h6 {
-  margin-top: 0;
-  font-size: 19px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.h7 {
-  margin-bottom: 0;
-  font-size: 20px;
-  text-align: center;
-}
-
-element.style {
-  background: #069cc2;
-  border-radius: 6px;
-  padding: 15px;
-  cursor: pointer;
-  color: #fff;
-  border: none;
-  font-size: 16px;
-  margin: 50px;
 }
 
 .botao {
@@ -221,101 +112,15 @@ element.style {
   text-transform: none;
   text-indent: 0px;
   text-shadow: none;
-  display: inline-block;
-  text-align: center;
   align-items: flex-start;
   cursor: default;
   box-sizing: border-box;
-  background-color: buttonface;
-  margin: 3em;
   padding-block: 1px;
   padding-inline: 6px;
-  border-width: 2px;
-  border-style: outset;
   border-color: buttonborder;
   border-image: initial;
 
 }
-
-body {
-  display: block;
-  margin: 15px;
-}
-
-/*formulario*/
-/*cor e texturra e tamanho botao*/
-.fundo {
-  color: #2654be
-}
-
-.field {
-  margin: 30px 0;
-  border-radius: 15px;
-  color: #0c0b0b;
-  font-family: 'Times New Roman', Times, serif;
-  width: 100%;
-}
-
-.field span {
-  padding-left: 2px;
-  font-size: 1.1em;
-  width: 100%;
-}
-
-input[type="text"],
-input[type="E-mail"],
-input[type="tel"],
-#textarea {
-  width: 30%;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  border-radius: 15px;
-  border: 1px solid #201c1c;
-  outline: none;
-  padding: 5px;
-  height: 35px;
-  resize: none;
-}
-
-input[type="submit"] {
-  background-color: #03a8f5;
-  color: aliceblue;
-  padding: 12px 20px;
-  border-radius: 100px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #99acb6
-}
-
-.enviar {
-  margin: 40px;
-}
-
-h5 {
-  margin: 0 8px 0 8px;
-  font-family: inherit;
-  text-decoration: none;
-  font-size: medium;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bold;
-  font-style: italic;
-  color: rgb(22, 21, 21)
-}
-
-h4 {
-  margin: 0 8px 0 8px;
-  text-decoration: none;
-  font-size: medium;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  font-style: italic;
-  color: rgb(22, 21, 21)
-}
-
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
